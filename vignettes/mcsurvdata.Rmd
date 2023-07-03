@@ -1,7 +1,7 @@
 ---
 title: "Meta cohort survival data mcsurvdata package"
 output:
-    BiocStyle::html_document:
+    rmarkdown::html_document:
     fig_height: 7
     fig_width: 9
     toc: yes
@@ -12,7 +12,6 @@ output:
 %% \VignetteEngine{knitr::rmarkdown}
 %% \VignetteIndexEntry{analysis vignette}
 -->
-
 `r library("knitr")`
 `r opts_chunk$set(cache=FALSE, fig.width=9, message=FALSE,
 warning=FALSE, fig.align = "left")`
