@@ -1,19 +1,13 @@
 ---
 title: "Meta cohort survival data mcsurvdata package"
-output:
-    rmarkdown::html_document:
-    fig_height: 7
-    fig_width: 9
-    toc: yes
-    toc_depth: 2
-    number_sections: true
+output: rmarkdown::html_vignette
+vignette: >
+    %\VignetteIndexEntry{analysis vignette}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8}
 ---
-<!--
-%% \VignetteEngine{knitr::rmarkdown}
-%% \VignetteIndexEntry{analysis vignette}
--->
 `r library("knitr")`
-`r opts_chunk$set(cache=FALSE, fig.width=9, message=FALSE,
+`r opts_chunk$set(cache=FALSE, fig.height=10,fig.width=8, message=FALSE,
 warning=FALSE, fig.align = "left")`
 
 Adria Caballe Mestres
