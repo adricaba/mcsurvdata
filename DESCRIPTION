@@ -18,5 +18,5 @@ NeedsCompilation: no
 biocViews: ExperimentData, Homo_sapiens_Data, GEO, MicroarrayData
 URL: https://github.com/adricaba/mcsurvdata
 Depends: R (>= 3.5), ExperimentHub
-Suggests: knitr, rmarkdown
+Suggests: BiocStyle, knitr, rmarkdown
 Imports: AnnotationHub, Biobase
